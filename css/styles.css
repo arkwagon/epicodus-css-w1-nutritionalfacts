@@ -1,0 +1,112 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.everything {
+  width: 235px;
+  height: 480px;
+  border: 1px solid black;
+}
+
+h1 {
+  margin-left: 3px;
+  margin: 0;
+  font-size: 32.5px;
+  font-family: sans-serif;
+}
+
+#amount {
+  font-size: 10px;
+  padding-bottom: 1px;
+}
+
+p {
+  margin: 0;
+  margin-left: 3px;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding-bottom: 1px;
+}
+
+.thick-hr {
+  border-top: 10px solid black;
+  min-width: 96%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 0;
+}
+
+.thin-hr {
+  min-width: 96%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 0;
+}
+
+.medium-hr {
+  border-top: 5px solid black;
+  min-width: 96%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 0;
+}
+
+.floatRight {
+  float: right;
+  padding-right: 3px;
+}
+
+.indent {
+  margin-left: 20px;
+}
+
+.thin-hr-short {
+  min-width: 77%;
+  margin-left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 3px;
+  padding: 0;
+}
+
+#disclaimer {
+  font-size: 9px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+/*#table {
+  min-width: 100%;
+}*/
+
+
+table {
+  min-width: 100%;
+  border-collapse: collapse;
+  font-size: 9px;
+  margin: 0;
+  font-weight: bolder;
+  /*margin-bottom: 3px;*/
+}
+
+th {
+  border-collapse: collapse;
+  border-bottom: 1px solid black;
+  min-width: 96%;
+  border-spacing: 0.5rem;
+  text-align: left;
+}
+
+td {
+  text-align: left;
+}
